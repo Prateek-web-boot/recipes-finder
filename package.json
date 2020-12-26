@@ -5,7 +5,6 @@
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
