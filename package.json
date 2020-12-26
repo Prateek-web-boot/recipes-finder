@@ -1,14 +1,17 @@
 {
   "name": "forkify",
+  "homepage": "https://Prateek-web-boot.github.io/Forkify_Recipes",
   "version": "1.0.0",
   "description": "forkify project",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "author": "Jonas Schmedtmann",
+  "author": "Prateek gupta",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -24,6 +27,7 @@
     "babel-polyfill": "^6.26.0",
     "development": "0.0.6",
     "fractional": "^1.0.0",
+    "gh-pages": "^3.1.0",
     "uniqid": "^4.1.1"
   }
 }
